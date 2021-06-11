@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_profil"
+        android:icon="@drawable/profil"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/mnu_catatan"
+        android:icon="@drawable/catatan"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/mnu_info"
+        android:icon="@drawable/info"
+        android:title=""
+        />
+
+
+</menu>

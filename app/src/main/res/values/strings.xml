@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Bio</string>
+    <string name="txtlogin">LOGIN</string>.
+    <string name="txtregister">REGISTER</string>
+    <string name="txtback">BACK</string>
+    <string name="txtregis">REGIST</string>
+</resources>

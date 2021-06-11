@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdffb6">
+
+    <TextView
+        android:id="@+id/txt_namaapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:layout_below="@+id/txt_biodata"
+        android:textColor="@color/font_color"
+        android:text="Catatan Harian"/>
+
+    <TextView
+        android:id="@+id/txt_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/txt_namaapp"
+        android:textColor="@color/font_color"
+        android:text="Version 1.0"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoa"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_ver"
+        android:layout_marginTop="20dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan Harian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="20sp"
+        android:typeface="normal"
+        />
+
+    <EditText
+        android:id="@+id/datedeparture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/hint_color"
+        android:background="@android:color/white"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_baseline_date_range_24"
+        android:drawableRight="@drawable/ic_baseline_date_range_24"
+        android:focusable="true"
+        android:hint="DATE"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:textColorHint="@color/hint_color"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/judul"
+        android:textColor="@color/hint_color"
+        android:hint="Judul" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:textColorHint="@color/hint_color"
+        android:id="@+id/kategori"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/hint_color"
+        android:hint="Kategori" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori"
+        android:id="@+id/isi"
+        android:textColorHint="@color/hint_color"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/hint_color"
+        android:hint="Isi Catatan" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/isi"
+        android:id="@+id/btnsimpan"
+        android:text="SIMPAN DATA" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnsimpan"
+        android:theme="@style/Theme.MyApplication"
+        android:id="@+id/btnedit"
+        android:text="EDIT DATA" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnedit"
+        android:id="@+id/btnhapus"
+        android:text="HAPUS DATA" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnhapus"
+        android:id="@+id/btntampil"
+        android:text="TAMPILKAN DATA" />
+
+
+</RelativeLayout>
